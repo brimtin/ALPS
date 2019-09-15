@@ -1,0 +1,4 @@
+C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Docs\DB\Alps.Model\obj\Debug\netcoreapp2.2\Alps.Model.csprojAssemblyReference.cache
+C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Docs\DB\Alps.Model\obj\Debug\netcoreapp2.2\Alps.Model.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Docs\DB\Alps.Model\obj\Debug\netcoreapp2.2\Alps.Model.AssemblyInfoInputs.cache
+C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Docs\DB\Alps.Model\obj\Debug\netcoreapp2.2\Alps.Model.AssemblyInfo.cs
