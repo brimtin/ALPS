@@ -1,0 +1,23 @@
+body{
+
+    background-color:gray;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+}
+
+.message {
+    text-decoration: wavy;
+    color: green;
+    width: 100%;
+}
+
+div.loginInfo {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
