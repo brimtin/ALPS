@@ -11,39 +11,62 @@
 
 </head>
 <body>
-    
+
     <header>
         <table style="width:100%">
             <tr>
 
-            <td>
-                <div class="image">
-                    <img src="C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA322\CodeFiles\Alps\Alps\lgo.png" alt="ALPS Logo" width="300" />
-                </div>
-            </td>
-            <td class="message">
-                <h1 class="Welcome Message">Welcome To The Army Leave Processing System</h1>
-            </td>
+                <td>
+                    <div class="image">
+                        <img src="C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA322\CodeFiles\Alps\Alps\lgo.png" alt="ALPS Logo" width="300" />
+                    </div>
+                </td>
+                <td class="message">
+                    <h1>Welcome To The Army Leave Processing System</h1>
+                </td>
             </tr>
-            </table>
-           
-            
-    </header>
-    <form class="log">
-        <div class="loginInfo">
-            <h2>Login</h2>
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </table>
 
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-   
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
-        <div/>
-        <button type="submit" class="btn btn-primary">Login</button>
+
+    </header>
+    <form action="action_page.php" method="post">
+
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit"><b>Login</b></button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+            <button type="button" class="register"><b>Register</b></button>
+            <span class="psw"> <a href="#">Forgot Password?</a></span>
+        </div>
+
+        <div class="select">
+
+        </div>
     </form>
+    <section class="content">
+        <h3>
+            You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only.
+        </h3>
+        <p>
+            By using this IS (which includes any device attached to this IS), you consent to the following conditions:
+        </p>
+        <ul>
+            <li>The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, COMSEC monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE) and counterintelligence (CI) investigations.</li>
+            <li>At any time, the USG may inspect and seize data stored on this IS.</li>
+            <li>Communications using, or data stored on, this IS are not private, are subject to routine monitoring, interception, and search, and may be disclosed or used for any USG-authorized purpose.</li>
+            <li>This IS includes security measures (e.g. authentication and access controls) to protect USG interests--not for your personal benefit or privacy.</li>
+            <li>Notwithstanding the above, using this IS does not constitute consent to PM, LE, or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy, and their assistants. Such communications and work product are private and confidential. See User Agreement for details.</li>
+        </ul>
+    </section>
+
 
 
 </body>

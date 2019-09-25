@@ -1,7 +1,8 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/Login.css" />
     <title>
         Dashboard
     </title>
@@ -10,58 +11,100 @@
 </head>
 <body>
     <header>
-        <img src="C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA322\CodeFiles\Alps\Alps\lgo.png" alt="ALPS Logo">
-        <h3>Welcome back, "Rank" "Lastname"</h3>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">  New Request<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Check Request Status</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="Account" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Account
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <style>
+            table {
+                background-color: rgba(0, 0, 0, 0.92);
+                width: 100%
+            }
+        </style>
+        <table>
+            <tr>
 
-        <button>Home</button>
-        <button>New Request</button>
-        <button>Logout</button>
+                <td>
+                    <div class="image">
+                        <img src="C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA322\CodeFiles\Alps\Alps\lgo.png" alt="ALPS Logo" width="300" />
+                    </div>
+                </td>
+                <td class="message">
+                    <h1>Welcome Back, Sgt Star!</h1>
+                </td>
+                <td align="right">
+                    <div class="image">
+                        <img src="css/avatar.jpg" />
+                    </div>
+                </td>
+
+
+            </tr>
+        </table>
     </header>
-
-    <style>
-        table, th, td {
-            border: 1px solid black;
-        }
-    </style>
-
     <h3>Upcomming Leaves</h3>
+    
+    <div class="dash">
 
-    <table title="Upcoming Leaves" style="width:80%">
 
-        <tr>
-            <th>RequestID</th>
-            <th>Start Date</th>
-            <th>End Date</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>######</td>
-            <td>01/01/2020</td>
-            <td>01/10/2020</td>
-            <td>Apporved</td>
+        <table class="table table-striped table-dark" style="width:50%">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Previous Requests</th>
+                    <th scope="col">Upcoming Leaves</th>
+                    <th scope="col">Current Requests</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>REQ#####</td>
+                    <td>REQ#####</td>
+                    <td>REQ#####</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>REQ#####</td>
+                    <td>REQ#####</td>
+                    <td>REQ#####</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>REQ#####</td>
+                    <td>REQ#####</td>
+                    <td>REQ#####</td>
+                </tr>
+            </tbody>
 
-        </tr>
+        </table>
 
-    </table>
-
-    <h3>Current Requests</h3>
-    <table title="Current Requests" style="width:80%">
-
-        <tr>
-            <th>RequestID</th>
-            <th>Start Date</th>
-            <th>End Date</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>#########</td>
-            <td>11/01/2020</td>
-            <td>11/10/2020</td>
-            <td>Processing</td>
-        </tr>
-
-    </table>
-
+    </div>
 
 </body>
 </html>

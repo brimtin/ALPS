@@ -2,33 +2,77 @@
 <html>
 <head>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/Login.css" />
     <title>
-        Leave Status
+        CheckStatus
     </title>
 
 
 </head>
 <body>
     <header>
-        <img src="C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA322\CodeFiles\Alps\Alps\lgo.png" alt="ALPS Logo">
-        <h1>Status of Leave Request</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">  New Request<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Check Request Status</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="Account" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Account
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <table class="mai">
+            <tr>
 
-        <button>Home</button>
-        <button>New Request</button>
-        <button>Logout</button>
+                <td>
+                    <div class="image">
+                        <img src="C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA322\CodeFiles\Alps\Alps\lgo.png" alt="ALPS Logo" width="300" />
+                    </div>
+                </td>
+                <td class="message">
+                    <h1>Current Leave Request</h1>
+                </td>
+                <td align="right">
+                    <div class="image">
+                        <img src="css/avatar.jpg" />
+                    </div>
+                </td>
+
+
+            </tr>
+        </table>
     </header>
+    
 
 
     <section>
 
-        <style>
-            table, th, td {
-                border: 1px solid black;
-            }
-        </style>
 
-        <h3>Request ID ########</h3>
-        <table title="Number Of Leave Days" style="width:100%">
+        <br />
+        <br />
+        
+        <h3 class="req"><b>           Request ID ########</b></h3>
+        <table class="table table-striped table-dark" style="width:80%">
 
 
             <tr>
@@ -58,6 +102,6 @@
 
     </section>
 
-       <br /> <button>Home</button>
+   
 </body>
 </html>
