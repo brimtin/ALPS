@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Alps.Model
 {
     class Alps : DbContext
-    {
-        public DbSet<Login> Login { get; set; }
+    { 
         public DbSet<User> User { get; set; }
         public DbSet<Unit> Unit { get; set; }
         public DbSet<FirtLineSupervisor> FirtLineSupervisor { get; set; }
@@ -22,6 +22,7 @@ namespace Alps.Model
 
     public class FirstSergeant
     {
+        [Key]
         public string EmailAddress1sg { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -30,6 +31,7 @@ namespace Alps.Model
 
     public class Commander
     {
+        [Key]
         public string EmailAddressCO { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -44,12 +46,17 @@ namespace Alps.Model
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
 
+        public int UserID { get; set; }
+        User User { get; set; }
 
+        public int UnitId { get; set; }
+        public Unit Unit { get; set; }
     }
 
     public class FirtLineSupervisor
     {
-        public string EmailAddressCO { get; set; }
+        [Key]
+        public string EmailAddressFL { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int phone { get; set; }
@@ -66,10 +73,21 @@ namespace Alps.Model
         public string State { get; set; }
         public int Zip { get; set; }
         public string Country { get; set; }
+
+
+        public string EmailAddressCO { get; set; }
+        public Commander Commander { get; set; }
+
+        public string EmailAddress1sg { get; set; }
+        public FirstSergeant FirstSergeant { get; set;}
+
+
+
     }
 
     public class User
     {
+        public int UserID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
@@ -81,12 +99,12 @@ namespace Alps.Model
         public string State { get; set; }
         public int Zip { get; set; }
         public string Country { get; set; }
-    }
 
-    public class Login
-    {
-        public int UserID      { get; set;}
-        public string UserName { get; set;}
-        public string Password { get; set; }
+        public int UnitID { get; set; }
+        public Unit Unit { get; set; }
+
+        public string EmailAddressFL { get; set; }
+        public FirtLineSupervisor FirtLineSupervisor { get; set; }
+
     }
 }

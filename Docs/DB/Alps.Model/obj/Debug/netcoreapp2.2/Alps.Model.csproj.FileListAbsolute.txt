@@ -2,3 +2,7 @@ C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Docs\DB\Alps.Model\obj\Debug\n
 C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Docs\DB\Alps.Model\obj\Debug\netcoreapp2.2\Alps.Model.csproj.CoreCompileInputs.cache
 C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Docs\DB\Alps.Model\obj\Debug\netcoreapp2.2\Alps.Model.AssemblyInfoInputs.cache
 C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Docs\DB\Alps.Model\obj\Debug\netcoreapp2.2\Alps.Model.AssemblyInfo.cs
+C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Docs\DB\Alps.Model\bin\Debug\netcoreapp2.2\Alps.Model.deps.json
+C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Docs\DB\Alps.Model\bin\Debug\netcoreapp2.2\Alps.Model.runtimeconfig.json
+C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Docs\DB\Alps.Model\bin\Debug\netcoreapp2.2\Alps.Model.runtimeconfig.dev.json
+C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Docs\DB\Alps.Model\bin\Debug\netcoreapp2.2\Alps.Model.dll
