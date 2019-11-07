@@ -1,0 +1,170 @@
+.message{
+
+    color:cornsilk;
+}
+
+.content {
+    padding: 26px;
+    text-align: center;
+    color: antiquewhite;
+    max-width: 850px;
+    float: right;
+    opacity: 0.75;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    text-align : center;
+    text-decoration-color:white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+   
+}
+
+/* Set a style for all buttons */
+button {
+    background-color:wheat;
+    color:blue;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.5;
+    
+}
+
+    /* Add a hover effect for buttons */
+    button:hover {
+        opacity: 0.8;
+    }
+
+
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    color: antiquewhite;
+    max-width: 350px;
+    float: left;
+    
+}
+
+.register1 {
+    padding: 16px;
+    color: antiquewhite;
+    max-width: 350px;
+    float: left;
+}
+.part2 {
+   
+    color: antiquewhite;
+    max-width: 350px;
+    float: right;
+}
+address {
+    padding: 26px;
+    color: antiquewhite;
+    max-width: 350px;
+    opacity: 0.75;
+}
+.upload {
+    padding: 16px;
+    color: antiquewhite;
+    max-width: 350px;
+    float:right;
+}
+.orig{
+    border:none;
+    color:white;
+    text-align:left;
+    padding:26px;
+    
+}
+.destination {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position:absolute;
+  z-index: 1;
+  top: auto;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  width:150%;
+ 
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  text-align:center;
+ 
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.submit{
+    color:antiquewhite;
+    background-color:black;
+    opacity:220;
+    width:10%
+}
+
+.start{
+    float:left
+}
+.end{
+    float:right;
+}
+.mai {
+    background-color: rgba(0, 0, 0, 0.92);
+    width: 100%
+}
+.req {
+    color: antiquewhite;
+    text-align:justify;
+}
+/* Style the image inside the centered container, if needed */
+
+/*.dest {
+    border: none;
+    color: white;
+    text-align: right;
+    padding: 26px;
+}
+
+.rp{
+    text-align:right;
+}*/
+
+
+
+
+
+
+
+
+
+
+
