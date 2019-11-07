@@ -22,4 +22,4 @@ In order for this product to be fully functional, it must include the following 
 
 ## Stretch
 1. The option to sign out on leave for officers and senior NCOs
-2. Linking the application to soldiers leave and earnings, medical, and other records page, and automatically validating their eligibility to take l
+2. Linking the application to soldiers leave and earnings, medical, and other records page, and automatically validating their eligibility to take leave
