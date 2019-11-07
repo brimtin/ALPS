@@ -41,3 +41,4 @@ C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Directory\Alps\Alps\obj\Debug\
 C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Directory\Alps\Alps\obj\Debug\netcoreapp2.2\Razor\Views\Home\Dashboard.g.cshtml.cs
 C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Directory\Alps\Alps\obj\Debug\netcoreapp2.2\Razor\Views\Leave\Request1.g.cshtml.cs
 C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Directory\Alps\Alps\obj\Debug\netcoreapp2.2\Razor\Views\Home\NewRequest.g.cshtml.cs
+C:\Users\ibrah\OneDrive\Desktop\MSSA\ITSA420\ALPS\Directory\Alps\Alps\obj\Debug\netcoreapp2.2\Razor\Views\Leave\Request2.g.cshtml.cs
